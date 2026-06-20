@@ -22,7 +22,8 @@ SECRET_KEY = 'django-insecure-&1mq^*sj2-r00ir6ug7u=odd@mqdpdtodu-ws$getrpi=f1^6@
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["*"]
+STATIC_ROOT = BASE_DIR / "staticfiles"
 
 
 INSTALLED_APPS = [
